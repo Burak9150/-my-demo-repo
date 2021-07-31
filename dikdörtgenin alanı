@@ -1,0 +1,87 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled31.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyMuBl1oP+DSqz4MhGt8b9q5",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Burak9150/Python-soru-kutuphanesi/blob/main/dikd%C3%B6rtgenin%20alan%C4%B1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "tMzrSGtv6_hZ"
+      },
+      "source": [
+        " Fonksiyon kullanarak genişliği ve yüksekliği girilen dikdörtgenin alanını hesaplayan Python programı"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sAEZ-Q4A6-Pq",
+        "outputId": "ef9e4bf3-4600-4614-9e3f-2d604532125e"
+      },
+      "source": [
+        "\n",
+        "def dikdortgenAlan(genislik, yukseklik):\n",
+        "    alan = float(genislik) * float(yukseklik)\n",
+        "    print (\"Alan :\",alan)\n",
+        "    return alan\n",
+        " \n",
+        "gen = input(\"Genişlik :\")\n",
+        " \n",
+        "yuk = input(\"Yükseklik : \")\n",
+        " \n",
+        "dikdortgenAlan(gen, yuk)"
+      ],
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Genişlik :6\n",
+            "Yükseklik : 7\n",
+            "Alan : 42.0\n"
+          ],
+          "name": "stdout"
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "42.0"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 2
+        }
+      ]
+    }
+  ]
+}
